@@ -1,0 +1,101 @@
+html,body{
+ margin:0;
+ height:100%   
+}
+header{
+    margin: 20px 0;
+    padding:auto;
+    text-align: center;
+    font-size: 50px;
+    color:coral;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(30px, auto);
+    grid-template-rows: repeat(2,1fr);
+    min-height:100%;
+    text-align: center;
+    border:2px solid coral;
+    border-radius:28px;
+    margin:auto;
+    padding:20px auto;
+    background-color: #eeee;
+    height: 450px;
+    max-width: 800px;
+    margin-bottom:50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin:40px 20px;
+    padding:10px;
+    text-align: left;
+    font-family:Georgia;
+    grid-column: 1;
+    grid-row: 1/3;
+}
+.selector{
+    padding: 5px;
+    margin:5px;
+    border-color: 2px coral;
+    outline-color: coral;
+    width:150px;
+}
+.tofrom{
+    padding: 5px;
+    margin:5px;
+    border-color: 2px coral;
+    outline-color: coral;
+    width:300px;
+}
+.details{
+    padding: 5px;
+    margin:5px;
+    border-color: 2px coral;
+    outline-color: coral;
+    width:300px;
+}
+.amount{
+    padding: 5px;
+    margin:5px;
+    border-color: 2px coral;
+    outline-color: coral;
+    width:300px
+}
+.send{
+    margin: 20px 0;
+    font-size: 20px;
+    color:white;
+    background-color: coral;
+    border: 3px solid coral;
+    text-align:center;
+}
+.output{
+    display:none;
+    text-align:left;
+    z-index:7;
+    border: 2px solid coral;
+    background-color: red;
+    border-radius: 28px;
+    margin:40px auto;
+    padding:5px auto;
+    background-color: #eeee;
+    height: 350px;
+    width: 400px;
+    max-width: 250px;
+    margin-bottom:50px;
+    grid-column: 2;
+    grid-row: 1/2
+}
+footer{  
+    background-color: coral;
+    height:50px;
+    text-align:center;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+    margin:8px
+}

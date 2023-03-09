@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance helper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>Finance helper</header>
+
+    <div class="content">
+        <form class="form">
+            
+            <label for="selector">Type of Operation:</label>
+            <select name="" class="selector" required>
+                <option value="Invoice">Invoice</option>
+                <option value="Check account">Check account</option>
+                <option value="Receive paycheck">Receive paycheck</option>
+            </select>
+
+            <br>
+
+            <label for="tofrom">Client:</label>
+            <input type="text" name="" id="" class="tofrom" placeholder="to/from..." required>
+
+            <br>
+            
+            <label for="details">Details:</label>
+            <input type="text" name="" id="" class="details" required placeholder="provide details of operation here...">
+
+            <br>
+            
+            <label for="amount">Money in $ :</label>
+            <input type="number" name="" id="" class="amount" placeholder="type amount of money here..." required>
+
+            <br>
+            
+
+            <button type="submit" class="send">Send info</button>
+
+        </form>
+
+        <div class="output">
+            <ul class="info">
+                
+        
+            </ul>
+        </div>
+
+        
+    </div>
+
+    
+
+    <footer>
+        <br>
+        <a href="http://www.george-finance-helper.com">Main page</a>
+    </footer>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
